@@ -109,6 +109,13 @@ a {
     font-weight: light;
 }
 
+.boton:hover {
+    background-color: #766CA6;
+    color: white;
+    font-family: 'Montserrat-Italic', sans-serif;
+    font-weight: light;
+}
+
 .boton>a {
     color: white;
 }
