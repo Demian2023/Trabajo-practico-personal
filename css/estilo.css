@@ -74,14 +74,14 @@ a {
 }
 
 .imagen-personal1 {
-    background-image: url(imagenes/chef2.jpg);
+    background-image: url(imagenes//chef2.jpg);
     background-position: -150px 0px;
     background-size: 160%;
     background-repeat: no-repeat;
 }
 
 .imagen-personal2 {
-    background-image: url(imagenes/nutricionista2.jpg);
+    background-image: url(/imagenes//nutricionista2.jpg);
     background-position: -80px 0px;
     background-size: 132%;
     background-repeat: no-repeat;
