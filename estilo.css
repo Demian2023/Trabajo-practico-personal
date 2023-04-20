@@ -67,28 +67,28 @@ a {
 }
 
 .imagen {
-    background-image: url("../imagenes/alimentos.jpg");
+    background-image: url("imagenes/alimentos.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .imagen-personal1 {
-    background-image: url("../imagenes/chef2.jpg");
+    background-image: url("imagenes/chef2.jpg");
     background-position: -150px 0px;
     background-size: 160%;
     background-repeat: no-repeat;
 }
 
 .imagen-personal2 {
-    background-image: url("../imagenes/nutricionista2.jpg");
+    background-image: url("imagenes/nutricionista2.jpg");
     background-position: -80px 0px;
     background-size: 132%;
     background-repeat: no-repeat;
 }
 
 .imagen-personal3 {
-    background-image: url("../imagenes/creatina2.jpg");
+    background-image: url("imagenes/creatina2.jpg");
     background-position: -50px -30px;
     background-size: 150%;
     background-repeat: no-repeat;
@@ -170,7 +170,7 @@ h6 {
 }
 
 .fondo-imagen {
-    background-image: url("../imagenes/alimentos.jpg");
+    background-image: url("imagenes/alimentos.jpg");
     background-size: cover;
     z-index: 1;
 }
