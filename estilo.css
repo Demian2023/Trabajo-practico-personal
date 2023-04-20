@@ -1,0 +1,256 @@
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat-Normal', serif;
+    font-style: normal;
+    position: relative;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 254, 242, 0.75);
+}
+
+.arriba {
+    position: fixed;
+    bottom: 60px;
+    right: 0;
+    height: 30px;
+    width: 80px;
+    font-size: 3em;
+    color: #766CA6;
+    z-index: 10;
+    opacity: 0;
+    scale: .5;
+    transition: .5s ease-out;
+}
+
+.nav-item:active {
+    text-decoration: underline;
+}
+
+.mostrar {
+    opacity: 1;
+    scale: 1;
+}
+
+.texto-combustible {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.color-neutro {
+    background-color: #F2EECE;
+}
+
+.color-complementario {
+    background-color: #FFFEF2;
+}
+
+.color-acento {
+    background-color: #766CA6;
+}
+
+.blanco {
+    background-color: white;
+}
+
+.color-blanco {
+    color: white;
+}
+
+.imagen {
+    background-image: url("../imagenes/alimentos.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagen-personal1 {
+    background-image: url("../imagenes/chef2.jpg");
+    background-position: -150px 0px;
+    background-size: 160%;
+    background-repeat: no-repeat;
+}
+
+.imagen-personal2 {
+    background-image: url("../imagenes/nutricionista2.jpg");
+    background-position: -80px 0px;
+    background-size: 132%;
+    background-repeat: no-repeat;
+}
+
+.imagen-personal3 {
+    background-image: url("../imagenes/creatina2.jpg");
+    background-position: -50px -30px;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.sombra {
+    box-shadow: 0 0 50px 20px rgba(100, 100, 100, 0.25);
+}
+
+.redondear {
+    border-radius: .75em;
+}
+
+.boton {
+    background-color: #766CA6;
+    color: white;
+    font-family: 'Montserrat-Italic', sans-serif;
+    font-weight: light;
+}
+
+.boton:hover {
+    background-color: #766CA6;
+    color: white;
+    font-family: 'Montserrat-Italic', sans-serif;
+    font-weight: light;
+}
+
+.boton>a {
+    color: white;
+}
+
+h1 {
+    font-family: 'Montserrat-Normal', sans-serif;
+    font-weight: bold;
+    color: #10113C;
+}
+
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat-Italic', sans-serif;
+    font-style: italic;
+    color: #10113C;
+    line-height: 2em;
+    text-align: justify;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.texto-footer {
+    font-family: 'Montserrat-Italic', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #10113C;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.fondo {
+    width: 100%;
+    height: fit-content;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.fondo-imagen {
+    background-image: url("../imagenes/alimentos.jpg");
+    background-size: cover;
+    z-index: 1;
+}
+
+.blur {
+    backdrop-filter: blur(15px) brightness(150%) contrast(20%);
+    z-index: 1;
+}
+
+#nombre,
+#apellido,
+#email,
+textarea {
+    font-family: 'Montserrat-Italic', sans-serif;
+    font-weight: bold;
+}
+
+label,
+span {
+    font-weight: bold;
+    font-size: large;
+}
+
+.error {
+    color: #FFFEF2;
+    font-family: 'Montserrat-Italic', sans-serif;
+    font-weight: bold;
+}
+
+input::placeholder {
+    font-family: 'Montserrat-Italic', sans-serif;
+    font-weight: bold;
+}
+
+#formulario-paso2,
+#formulario-paso3 {
+    display: none;
+}
+
+@media only screen and (max-width: 575.98px) {
+    #imagen {
+        margin-top: 80px;
+    }
+    #texto1,
+    #texto2 {
+        padding: 0px !important;
+    }
+    h6 {
+        line-height: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    #imagen {
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .imagen-personal1 {
+        background-position: 0px 0px;
+        background-size: 115%;
+    }
+    .imagen-personal3 {
+        background-position: 0px -50px;
+        background-size: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .imagen-personal2 {
+        background-position: -80px 0px;
+        background-size: 145%;
+    }
+    .imagen-personal3 {
+        background-position: -50px -10px;
+    }
+}
+
+
+/* @media only screen and (min-width: 1200px) {
+    ...
+} */
